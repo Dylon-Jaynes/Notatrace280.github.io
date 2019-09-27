@@ -46,3 +46,8 @@
     background-color: rgb(199, 10, 51);
     border-radius: 13px;
 }
+
+#lastModified {
+    text-align: center;
+    font-size: 13px;
+}
