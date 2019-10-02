@@ -1,0 +1,54 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+    background: blue;
+    border: 3px solid black;
+    margin: 2em;
+}
+
+.gridItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.gridItem > div {
+    background: blue;
+    padding: 1em;
+    border: 3px solid black;
+}
+
+.gridItem > div:nth-child(odd) {
+    background: red;
+    border: 3px solid black;
+}
+
+.nestedGrid {
+    display: grid;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+}
+
+.nestedGrid > p, a {
+    font-size: 20px;
+}
+
+#column1 {
+    margin-left: 2em;
+}
+
+#column3 {
+    margin-right: 2em;
+}
+
+.footer {
+    text-align: center;
+    background: blue;
+    border: 3px solid black;
+    margin: 2em;
+}
