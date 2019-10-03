@@ -1,13 +1,25 @@
 body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    line-height: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
 }
 
 .header {
     text-align: center;
-    background: blue;
+    background: teal;
     border: 3px solid black;
+    border-radius: 25px;
     margin: 2em;
+}
+
+#name {
+    font-size: .5em;
 }
 
 .gridItem {
@@ -17,21 +29,21 @@ body {
 }
 
 .gridItem > div {
-    background: blue;
-    padding: 1em;
+    background: teal;
+    padding: .5em;
     border: 3px solid black;
 }
 
 .gridItem > div:nth-child(odd) {
-    background: red;
+    background: teal;
     border: 3px solid black;
 }
 
 .nestedGrid {
     display: grid;
-    grid-gap: 1em;
+    grid-gap: .5em;
     grid-auto-rows: minmax(100px, auto);
-    text-align: center;
+    text-align: left;
 }
 
 .nestedGrid > p, a {
@@ -42,13 +54,45 @@ body {
     margin-left: 2em;
 }
 
+#branson_missouri {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slack {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #column3 {
     margin-right: 2em;
 }
 
+#solodev {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer {
     text-align: center;
-    background: blue;
+    background: teal;
     border: 3px solid black;
+    border-radius: 25px;
     margin: 2em;
+}
+
+a {
+    color: black;
 }
